@@ -46,6 +46,7 @@ chanchal singhvi
 c.k. shukla
 s.n. dasgupta
 sumit chakrobarty
+![image](https://github.com/user-attachments/assets/e69c6bd9-e9c0-4eaf-8fd7-f266c4705f8d)
 
 cat < file2
 ## OUTPUT
@@ -54,6 +55,7 @@ barun sengupta
 c.k. shukla
 lalit chowdury
 s.n. dasgupta
+![image](https://github.com/user-attachments/assets/21d59373-b037-48fc-93f8-acdd7a844e61)
 
 # Comparing Files
 cmp file1 file2
@@ -61,6 +63,8 @@ cmp file1 file2
  file1 file2 differ: char1,line1
 comm file1 file2
 comm file1 file2
+![image](https://github.com/user-attachments/assets/9dc2479a-56a1-4602-bdce-294f15910348)
+
  ## OUTPUT
 anil aggarwal
 barun sengupta
@@ -69,7 +73,8 @@ chanchal singhvi
 c.k. shukla
 lalit chowdury
 s.n. dasgupta
- 
+ ![image](https://github.com/user-attachments/assets/49f823c8-ef94-422d-a021-b1e35ecf4949)
+
 diff file1 file2
 ## OUTPUT
 --- file1
@@ -82,6 +87,7 @@ diff file1 file2
 +lalit chowdury
  s.n. dasgupta
 -sumit chakrobarty
+![image](https://github.com/user-attachments/assets/9cbc8cf0-52a1-400f-809c-2a62348c2ab5)
 
 #Filters
 
@@ -106,18 +112,21 @@ cut -c1-3 file11
 ## OUTPUT
 Hel
 Thi
+![image](https://github.com/user-attachments/assets/6c4e6e14-1df7-4b57-ad69-f237236e6a06)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 1001
 1002
 1003
+![image](https://github.com/user-attachments/assets/58f04aa9-c703-40fb-97fb-6fa1f0828790)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 Ram
 tom
 Joe
+![image](https://github.com/user-attachments/assets/55a6507f-0f93-4d49-90ff-2de665207e6a)
 
 cat < newfile 
 ```
@@ -132,24 +141,33 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 Hello world
+![image](https://github.com/user-attachments/assets/ec54f786-08ff-4201-bb48-d2e6596303e4)
+
 grep hello newfile 
 ## OUTPUT
 Hello world
+![image](https://github.com/user-attachments/assets/469a51e6-248c-49c4-bd9e-07e49cad7b11)
 
 grep -v hello newfile 
 ## OUTPUT
 Hello world
+![image](https://github.com/user-attachments/assets/8e203cf1-bca4-42e2-b369-71cd4ed4b51b)
+
 cat newfile | grep -i "hello"
 ## OUTPUT
 Hello world
 hello world
+![image](https://github.com/user-attachments/assets/6e1b7f3b-6abf-422e-9efd-e5fc90bb8f2e)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 2
+![image](https://github.com/user-attachments/assets/e277df2b-6354-4deb-9640-f295d445586c)
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/fc4988c4-9b96-4996-ac03-1a514e701449)
+
 grep: unrecognized option: R
 BusyBox v1.31.1 () multi-call binary.
  
@@ -186,6 +204,7 @@ grep -w -n world newfile
 ## OUTPUT
 1:Hello world
 2:hello world
+![image](https://github.com/user-attachments/assets/2a3e1688-4cfd-4242-9eb0-4ad2976405ab)
 
 cat < newfile 
 ```
@@ -208,6 +227,7 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/99cc77c6-c004-4a67-89af-8744391f6efb)
 
 Hello world
 hello world
@@ -217,6 +237,7 @@ egrep -w '(H|h)ello' newfile
 Hello world
 hello world
 
+![image](https://github.com/user-attachments/assets/fcce83ae-4d36-47ff-b213-2c417722a8a8)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
@@ -224,10 +245,12 @@ egrep -w '(H|h)ell[a-z]' newfile
 Hello world
 hello world
 
+![image](https://github.com/user-attachments/assets/ecca547f-332a-4d0a-9710-4c27fb4b9ae3)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 hello world
+![image](https://github.com/user-attachments/assets/6a89ac7f-bb69-4432-9797-cbcf67ce3d0d)
 
 
 egrep '(world$)' newfile 
@@ -235,13 +258,16 @@ egrep '(world$)' newfile
 
 hello world
 hello world
+![image](https://github.com/user-attachments/assets/d49161b3-d45c-402c-a166-1f8ff4e53e9f)
 
 egrep '(World$)' newfile 
 ## OUTPUT
 Linux is best in the World
+![image](https://github.com/user-attachments/assets/fe9ed722-20ef-4060-bca9-7b2e2ee697e8)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/bf028e63-6851-4045-b80c-51ed4fd63055)
 
 Hello world
 hello world
@@ -1204,6 +1230,7 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+![image](https://github.com/user-attachments/assets/d5c83a03-5b48-4b76-8940-abe3c369d8a4)
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
@@ -1223,6 +1250,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2c8d7766-4d02-4e64-928d-ea12ed8b8166)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1236,6 +1265,8 @@ done
 set +x
 ```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/74069986-b072-4f8b-9f8f-edbd747acf25)
+
  ./argshift.sh 1 2 3
  
  
@@ -1268,7 +1299,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/89738c1e-d318-45f1-8c65-5f0d40f994bc)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1295,6 +1327,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/ea74bdd1-4551-4882-a8a7-f56fd391b5e6)
 
 
 # RESULT:
